@@ -1,8 +1,8 @@
-package com.iep.commons.app.facade;
+package com.iep.commons.facade;
 
 
-import com.iep.commons.app.domain.entity.BaseEntity;
-import com.iep.commons.app.domain.repository.BaseRepository;
+import com.iep.commons.domain.entity.BaseEntity;
+import com.iep.commons.domain.repository.BaseRepository;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

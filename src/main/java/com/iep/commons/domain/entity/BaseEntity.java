@@ -1,4 +1,4 @@
-package com.iep.commons.app.domain.entity;
+package com.iep.commons.domain.entity;
 
 
 import jakarta.persistence.*;

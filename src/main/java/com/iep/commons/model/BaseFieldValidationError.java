@@ -1,4 +1,4 @@
-package com.iep.commons.app.model;
+package com.iep.commons.model;
 
 
 import lombok.AllArgsConstructor;

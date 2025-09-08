@@ -1,6 +1,6 @@
-package com.iep.commons.app.domain.repository;
+package com.iep.commons.domain.repository;
 
-import com.iep.commons.app.domain.entity.BaseEntity;
+import com.iep.commons.domain.entity.BaseEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

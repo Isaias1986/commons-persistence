@@ -1,4 +1,4 @@
-package com.iep.commons.app.utils;
+package com.iep.commons.utils;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;

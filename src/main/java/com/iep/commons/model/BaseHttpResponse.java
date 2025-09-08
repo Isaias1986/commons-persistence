@@ -1,8 +1,8 @@
-package com.iep.commons.app.model;
+package com.iep.commons.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
-import com.iep.commons.app.enums.BaseErrorCode;
+import com.iep.commons.enums.BaseErrorCode;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.iep.commons.app.exception;
+package com.iep.commons.exception;
 
-import com.iep.commons.app.enums.BaseErrorCode;
+import com.iep.commons.enums.BaseErrorCode;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.http.HttpStatus;

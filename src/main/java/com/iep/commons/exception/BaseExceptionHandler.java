@@ -1,8 +1,8 @@
-package com.iep.commons.app.exception;
+package com.iep.commons.exception;
 
-import com.iep.commons.app.enums.BaseGeneralErrorCode;
-import com.iep.commons.app.model.BaseFieldValidationError;
-import com.iep.commons.app.model.BaseHttpResponse;
+import com.iep.commons.enums.BaseGeneralErrorCode;
+import com.iep.commons.model.BaseFieldValidationError;
+import com.iep.commons.model.BaseHttpResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
