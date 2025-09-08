@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.iep.commons.persistence</groupId>
 	<artifactId>commons-iep-persistence</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>commons-iep-persistence</name>
 	<description>Libreria encargada de administrar la persistencia de los registros - boot 3.5.5</description>
 	<url/>
