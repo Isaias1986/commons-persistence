@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.iep.commons.persistence</groupId>
 	<artifactId>commons-iep-persistence</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>commons-iep-persistence</name>
 	<description>Libreria encargada de administrar la persistencia de los registros - boot 3.5.5</description>
 	<url/>
@@ -51,13 +51,12 @@
 
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Isaias1986 Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/Isaias1986/commons-persistence</url>
+		</repository>
+	</distributionManagement>
 
 </project>
