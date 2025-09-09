@@ -9,7 +9,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.MissingServletRequestParameterException;
-import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import jakarta.validation.ConstraintViolationException;
 
@@ -18,8 +17,7 @@ import java.util.List;
 import java.util.UUID;
 
 @Slf4j
-@ControllerAdvice
-public class BaseExceptionHandler {
+public abstract class BaseExceptionHandler {
 
     public BaseExceptionHandler(){}
 
