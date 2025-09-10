@@ -1,5 +1,8 @@
 package com.iep.commons.mapper;
 
+import com.iep.commons.model.BaseRequestDTO;
+import com.iep.commons.model.BaseResponseDTO;
+
 /**
  *
  * @param <T> Modelo de Respuesta

@@ -1,6 +1,7 @@
 package com.iep.commons.exception;
 
 import com.iep.commons.enums.BaseErrorCode;
+import com.iep.commons.enums.SubBaseErrorCode;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.http.HttpStatus;
@@ -25,6 +26,13 @@ public class BaseCustomException extends RuntimeException{
         this.errorCode = errorCode;
         this.message = message;
         this.httpStatus = httpStatus;
+    }
+
+    public BaseCustomException(String message,SubBaseErrorCode base){
+        super(message != null && !message.isEmpty() ? message : base.getMessage());
+        this.errorCode = base;
+        this.message = message != null && !message.isEmpty() ? message : base.getMessage();
+        this.httpStatus = base.getHttpStatus();
     }
 
 }
